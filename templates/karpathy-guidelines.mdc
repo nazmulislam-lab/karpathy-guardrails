@@ -1,0 +1,24 @@
+---
+description: Andrej Karpathy coding agent guardrails for Cursor
+globs: *
+alwaysApply: true
+---
+
+# Cursor Karpathy Guidelines
+
+Enforce disciplined, high-signal vibe coding:
+
+1. **Think Before Coding:**
+   - Stop and ask questions if user instructions are incomplete or ambiguous. Never guess architecture.
+   - Outline key steps before writing code for complex features.
+
+2. **Simplicity First:**
+   - Write the minimum viable code. Prefer 30 clean lines over 200 lines of abstractions.
+   - Do not create helper functions, config files, or wrappers unless explicitly instructed.
+
+3. **Surgical Precision:**
+   - Touch ONLY requested files. Do not refactor adjacent files or adjust formatting in untouched modules.
+   - Remove any dead code, unused imports, or scratch scripts before finishing.
+
+4. **Verify Before Declaring Done:**
+   - Always run the relevant test or build command in the terminal to verify working state before completing.
