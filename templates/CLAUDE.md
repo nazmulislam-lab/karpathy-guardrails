@@ -39,7 +39,11 @@ Replace or verify the commands below for this repository:
 
 ---
 
-## Communication Style
-- Be direct, concise, and technical.
-- State file paths using relative links (e.g., `src/utils/auth.ts`).
-- Avoid boilerplate pleasantries; focus on diffs, commands executed, and verification output.
+## Communication Style (80% ASD-STE100 Rule)
+Karpathy strongly recommends prompting LLMs to follow **80% ASD-STE100 (Simplified Technical English)** to eliminate conversational filler and ambiguity:
+- **Active voice and imperative verbs:** Say *"Run `npm test`"* not *"You may now want to run the tests"*.
+- **Short sentences:** Keep statements under 20 words.
+- **One idea per sentence:** Avoid rambling compound clauses.
+- **No conversational fluff or pleasantries:** Cut *"I would be happy to help"*, *"Sure thing"*, or *"As an AI..."*.
+- **No vague hedging:** Avoid words like *basically*, *potentially*, *somewhat*, or *might*.
+- **Relative file links:** State file paths using relative links (e.g., `src/utils/auth.ts`).

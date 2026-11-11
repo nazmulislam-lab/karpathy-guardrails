@@ -89,10 +89,11 @@ These guidelines govern all AI agent operations in this repository. Follow them 
 
 ---
 
-## Communication Style
-- Be direct, concise, and technical.
+## Communication Style (80% ASD-STE100 Rule)
+- Use **80% ASD-STE100 (Simplified Technical English)**: active voice, short sentences (<20 words), no hedging.
+- Eliminate filler words and pleasantries (e.g., "Certainly!", "Sure thing").
 - State file paths using relative links (e.g., \`src/utils/auth.ts\`).
-- Avoid boilerplate pleasantries; focus on diffs, commands executed, and verification output.
+- Focus strictly on diffs, commands executed, and verification output.
 EOF
     echo "  ✓ Generated ${TARGET_DIR}/CLAUDE.md"
 }
@@ -127,6 +128,12 @@ This repository adheres to disciplined agentic engineering principles inspired b
   1. A check for compile / syntax errors (\`${BUILD_CMD}\`).
   2. Execution of the corresponding test (\`${TEST_CMD}\`).
   3. Clean linter and type-checker runs (\`${LINT_CMD}\`).
+
+### 5. Communication Standard (80% ASD-STE100)
+- Deliver responses following the **80% ASD-STE100 (Simplified Technical English)** standard.
+- Use active voice and imperative mood.
+- Keep sentences short (under 20 words) with one action or assertion per sentence.
+- Eliminate conversational pleasantries, apology loops, and ambiguous qualifiers (*basically*, *potentially*).
 
 ---
 

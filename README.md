@@ -31,13 +31,15 @@ flowchart TD
     B -- No --> D["2. Simplicity First<br/>(Minimal viable code, 30 lines)"]
     D --> E["3. Surgical Precision<br/>(Touch only target files)"]
     E --> F["4. Goal-Driven Execution<br/>(Run tests & lint to verify)"]
-    F --> G["Task Complete"]
+    F --> G["5. 80% ASD-STE100<br/>(Direct, concise technical output)"]
+    G --> H["Task Complete"]
 ```
 
 1. **Think Before Coding:** Prohibits silent assumptions. If requirements are ambiguous, the agent must ask clarifying questions before touching code.
 2. **Simplicity First:** Aggressively penalizes over-engineering. A clean 30-line solution is strictly preferred over 200 lines of premature abstractions.
 3. **Surgical Precision:** Changes are strictly confined to the requested scope. The agent is banned from reformatting or modifying untouched code.
 4. **Goal-Driven Execution:** Requires automated test and lint verification before declaring any task done.
+5. **80% ASD-STE100 Output:** Strips away conversational fluff, polite preamble, and vague hedging. Enforces active voice, short imperative sentences (<20 words), and unambiguous technical clarity based on Simplified Technical English.
 
 ---
 

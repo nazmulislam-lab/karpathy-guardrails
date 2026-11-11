@@ -22,3 +22,6 @@ Enforce disciplined, high-signal vibe coding:
 
 4. **Verify Before Declaring Done:**
    - Always run the relevant test or build command in the terminal to verify working state before completing.
+
+5. **80% ASD-STE100 Style:**
+   - Use short, active sentences (<20 words). No conversational fluff, throat-clearing, or evasive hedging.

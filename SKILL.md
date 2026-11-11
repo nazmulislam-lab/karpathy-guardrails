@@ -3,9 +3,10 @@ name: karpathy-guardrails
 description: |
   Inspects the active codebase and generates or updates disciplined CLAUDE.md, AGENTS.md,
   or Cursor rules based on Andrej Karpathy's agentic engineering principles. Enforces no silent
-  assumptions, simplicity first (anti-overengineering), surgical precision, and goal-driven
-  execution. Use when the user asks to "scaffold agent rules", "create CLAUDE.md", "create AGENTS.md",
-  "initialize Karpathy rules", "add vibe coding guardrails", or "tame coding agents".
+  assumptions, simplicity first (anti-overengineering), surgical precision, goal-driven
+  execution, and 80% ASD-STE100 clear communication. Use when the user asks to "scaffold agent rules",
+  "create CLAUDE.md", "create AGENTS.md", "initialize Karpathy rules", "add vibe coding guardrails",
+  or "tame coding agents".
 license: MIT
 metadata:
   author: Md Nazmul Islam (based on Andrej Karpathy's agentic engineering observations)
@@ -70,6 +71,9 @@ Inject the four pillars of the Karpathy method along with detected stack command
 4. **Goal-Driven Execution (Definition of Done):**
    - Inject the actual commands detected in Step 1.
    - Forbid declaring a task complete until verification commands pass cleanly.
+5. **Clear Communication (The 80% ASD-STE100 Rule):**
+   - Eliminate filler words, conversational pleasantries, and hedging.
+   - Enforce active voice, imperative sentences (under 20 words each), and single-action bullet points.
 
 ### Step 4: Verify and Review with User
 

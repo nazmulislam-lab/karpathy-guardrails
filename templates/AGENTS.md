@@ -27,6 +27,12 @@ This repository adheres to disciplined agentic engineering principles inspired b
   2. Execution of the corresponding unit or integration test.
   3. Clean linter and type-checker runs.
 
+### 5. Communication Standard (80% ASD-STE100)
+- Deliver responses following the **80% ASD-STE100 (Simplified Technical English)** standard.
+- Use active voice and imperative mood.
+- Keep sentences short (under 20 words) with one action or assertion per sentence.
+- Eliminate conversational pleasantries, apology loops, throat-clearing openers, and ambiguous qualifiers (*basically*, *essentially*, *potentially*).
+
 ---
 
 ## Verification Commands Reference
